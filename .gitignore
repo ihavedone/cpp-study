@@ -4,14 +4,14 @@
 # Build -----------------------------------------------------------------------
 
 ### Output and Cache Directories ###
-/External/
-/Debug/
-/Docs/
-/Release/
+*/External/
+*/Debug/
+*/Docs/
+*/Release/
 */build/
-/bin/
-/out/
-/cmake-build-*/
+*/bin/
+*/out/
+*/cmake-build-*/
 
 ### CMake ###
 CMakeCache.txt
@@ -76,20 +76,20 @@ tramp
 *_flymake.*
 
 # eshell files
-/eshell/history
-/eshell/lastdir
+*/eshell/history
+*/eshell/lastdir
 
 # elpa packages
-/elpa/
+*/elpa/
 
 # reftex files
 *.rel
 
 # AUCTeX auto folder
-/auto/
+*/auto/
 
 # cask packages
-.cask/
+*/.cask/
 
 ### Intellij ###
 # Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm,
@@ -101,20 +101,20 @@ tramp
 .idea/tasks.xml
 
 # Sensitive or high-churn files:
-.idea/dataSources/
-.idea/dataSources.ids
-.idea/dataSources.xml
-.idea/dataSources.local.xml
-.idea/sqlDataSources.xml
-.idea/dynamic.xml
-.idea/uiDesigner.xml
+*/.idea/dataSources/
+*/.idea/dataSources.ids
+*/.idea/dataSources.xml
+*/.idea/dataSources.local.xml
+*/.idea/sqlDataSources.xml
+*/.idea/dynamic.xml
+*/.idea/uiDesigner.xml
 
 # Gradle:
-.idea/gradle.xml
-.idea/libraries
+*/.idea/gradle.xml
+*/.idea/libraries
 
 # Mongo Explorer plugin:
-.idea/mongoSettings.xml
+*/.idea/mongoSettings.xml
 
 ## File-based project format:
 *.iws
